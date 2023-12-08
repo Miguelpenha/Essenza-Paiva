@@ -2,8 +2,8 @@ import { IPage } from '../types'
 
 const page: IPage = {
     meta: {
-        title: 'SaaS LP',
-        description: 'SaaS LP'
+        title: 'Essenza Paiva: morar à beira-mar é só o começo.',
+        description: 'Morar à beira-mar é só o começo'
     },
     alts: {
         logo: 'Logo Maria de Jesus',
