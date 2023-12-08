@@ -36,6 +36,7 @@ export const Button = styled.a`
     transition-duration: 0.2s;
     transition-timing-function: linear;
     color: ${props => props.theme.color};
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: ${props => props.theme.primary};
 
     :hover {
