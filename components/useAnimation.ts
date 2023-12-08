@@ -50,8 +50,8 @@ function useAnimation() {
             { 
                 y: 0,
                 opacity: 1,
-                duration: 1,
-                stagger: 0.15,
+                duration: 0.7,
+                stagger: 0.12,
                 scrollTrigger: {
                     trigger: '#about>.description',
                     start: 'bottom bottom'
