@@ -5,7 +5,7 @@ export const Container = styled.form`
     gap: 2em;
     width: 70%;
     display: flex;
-    padding-top: 2em;
+    padding-top: 3em;
     align-self: center;
 
     .active {
