@@ -12,4 +12,5 @@ export const Container = styled.header`
 export const Logo = styled(Image)`
     width: 100%;
     height: auto;
+    max-width: 20em;
 `
