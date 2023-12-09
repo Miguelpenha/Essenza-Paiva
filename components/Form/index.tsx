@@ -1,7 +1,10 @@
+import { useState, useEffect } from 'react'
 import { Container, Text, Input, InputMask, Button } from './style'
 import page from '../../services/page'
 
 function Form() {
+    const [telephone, setTelephone] = useState('')
+
     return (
         <Container id="form" action={process.env.NEXT_PUBLIC_URL_FORM_DATA} method="post">
             <Text>
@@ -14,10 +17,13 @@ function Form() {
                 type="tel"
                 maskChar=""
                 id="telephone"
+                minLength={16}
                 name="telephone"
                 mask="(99) 9 9999-9999"
                 placeholder="Whatsapp..."
+                onChange={ev => setTelephone(ev.target.value)}
             />
+            <Input value={`https://api.whatsapp.com/send?phone=55${telephone.replace(/[-() ]/g, '')}`} type="hidden" name="Whatsapp Link"/>
             <Input type="email" name="email" id="email" required placeholder="Email..."/>
             <Button type="submit">Enviar</Button>
         </Container>
