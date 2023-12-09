@@ -1,15 +1,11 @@
-import { Container, Logo, Text } from './style'
-import LogoSource from '../../public/img/Logo.png'
+import { Container, Logo } from './style'
+import LogoHeaderSource from '../../public/img/Logo Header.png'
 import page from '../../services/page'
 
 function Header() {
     return (
         <Container>
-            <Logo placeholder="blur" src={LogoSource} alt={page.alts.logo}/>
-            <Text>
-                <span className="bold">{page.components.header.title.bold}</span>
-                <span className="lighter">{page.components.header.title.lighter}</span>
-            </Text>
+            <Logo placeholder="blur" src={LogoHeaderSource} alt={page.alts.header}/>
         </Container>
     )
 }

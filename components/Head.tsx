@@ -17,7 +17,7 @@ function Head() {
             <meta name="twitter:description" content={page.meta.description}/>
             <meta name="twitter:image" content={`${process.env.NEXT_PUBLIC_DOMAIN}/img/thumbnail.png`}/>
             <meta name="description" content={page.meta.description}/>
-            <meta name="theme-color" content={theme.background}/>
+            <meta name="theme-color" content={theme.primary}/>
         </HeadRaw>
     )
 }

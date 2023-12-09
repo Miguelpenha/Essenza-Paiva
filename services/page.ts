@@ -6,18 +6,12 @@ const page: IPage = {
         description: 'Morar à beira-mar é só o começo'
     },
     alts: {
-        logo: 'Logo Maria de Jesus',
+        header: 'Logos Empresas',
         main: 'Imagem Principal',
         gallery: ['Photo 1', 'Photo 2', 'Photo 3', 'Photo 4', 'Photo 5'],
-        complete: 'Logo Completa'
+        logo: 'Logo Maria de Jesus'
     },
     components: {
-        header: {
-            title: {
-                bold: 'Essenza Paiva: ',
-                lighter: 'morar à beira-mar é só o começo.'
-            }
-        },
         main: {
             form: {
                 title: {

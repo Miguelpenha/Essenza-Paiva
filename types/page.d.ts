@@ -4,18 +4,12 @@ interface IPage {
         description: string
     }
     alts: {
-        logo: string
+        header: string
         main: string
         gallery: string[]
-        complete: string
+        logo: string
     }
     components: {
-        header: {
-            title: {
-                bold: string
-                lighter: string
-            }
-        }
         main: {
             form: {
                 title: {

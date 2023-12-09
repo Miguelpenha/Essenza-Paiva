@@ -34,7 +34,7 @@ function Home() {
             <About/>
             <Register/>
             <Footer>
-                <LogoFooter placeholder="blur" src={LogoCompleteSource} alt={page.alts.complete}/>
+                <LogoFooter placeholder="blur" src={LogoCompleteSource} alt={page.alts.logo}/>
             </Footer>
         </Container>
     </>
