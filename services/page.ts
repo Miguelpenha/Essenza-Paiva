@@ -16,7 +16,7 @@ const page: IPage = {
             form: {
                 title: {
                     bold: 'Cadastre-se',
-                    lighter: ' e garanta seu imóvel com a melhor condição do ano'
+                    lighter: ' e fale com nossa equipe de vendas.'
                 }
             },
             description: [
@@ -28,11 +28,11 @@ const page: IPage = {
                     normal: 'Cobertura 704, ',
                     highlighted: 'Torre Anima'
                 },
-                description: 'Só seus 294m2 já é um convite ao conforto. Com um terraço majestoso saudando o sol diariamente, a cobertura 704 personifica tudo que buscamos em um apartamento à beira-mar.',
+                description: 'Só seus 244m2 já é um convite ao conforto. Com um terraço majestoso saudando o sol diariamente, a cobertura 704 personifica tudo que buscamos em um apartamento à beira-mar.',
                 attributes: [
                     {
                         normal: 'Tamanho: ',
-                        bold: '294m²'
+                        bold: '244²'
                     },
                     {
                         normal: 'Quartos: ',
