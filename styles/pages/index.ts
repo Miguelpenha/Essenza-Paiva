@@ -32,7 +32,7 @@ export const ImageMain = styled(Image)`
 
 export const TitleImageMain = styled.h1`
     z-index: 1;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     margin-top: 5em;
     font-size: 2.5em;
@@ -48,7 +48,7 @@ export const TitleImageMain = styled.h1`
 
 export const SubtitleImageMain = styled.h1`
     z-index: 1;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     font-weight: 400;
     font-size: 1.5em;
