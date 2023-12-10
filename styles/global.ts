@@ -12,7 +12,7 @@ export default createGlobalStyle`
     }
 
     *::selection {
-        background-color: ${props => props.theme.background};
+        background-color: ${props => props.theme.primary};
     }
 
     body {
