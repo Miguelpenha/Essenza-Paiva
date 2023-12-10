@@ -48,8 +48,8 @@ const page: IPage = {
                     }
                 ],
                 price: {
-                    normal: 'POR APENAS ',
-                    bold: 'R$ 4.000.000'
+                    normal: 'POR ',
+                    bold: 'R$ 4.500.000'
                 },
                 button: {
                     text: 'Tenho interesse'

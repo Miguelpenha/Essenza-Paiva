@@ -4,6 +4,10 @@ export const Container = styled.div`
     display: flex;
     padding: 3em 1.5em;
     background-color: ${props => props.theme.secondaryBackground};
+
+    @media screen and (min-width: 900px) {
+        padding: 5em 20em;
+    }
 `
 
 export const Title = styled.h2`

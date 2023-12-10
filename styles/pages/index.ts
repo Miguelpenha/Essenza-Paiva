@@ -6,18 +6,72 @@ export const Container = styled.main`
     background-color: ${props => props.theme.secondaryColor};
 `
 
+export const ContainerImageMain = styled.div`
+    height: 35em;
+    display: flex;
+    position: relative;
+
+    @media screen and (max-width: 900px) {
+        height: 25em;
+    }
+`
+
 export const ImageMain = styled(Image)`
+    z-index: 0;
     width: 100%;
-    height: auto;
+    height: 35em;
+    object-fit: cover;
+    position: absolute;
+    filter: brightness(0.7);
+    object-position: 0% 70%;
+
+    @media screen and (max-width: 900px) {
+        height: 25em;
+    }
+`
+
+export const TitleImageMain = styled.h1`
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: 5em;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color: ${props => props.theme.secondaryColor};
+
+    @media screen and (max-width: 900px) {
+        margin-top: 6em;
+        font-size: 1.5em;
+    }
+`
+
+export const SubtitleImageMain = styled.h1`
+    z-index: 1;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    text-align: center;
+    color: ${props => props.theme.secondaryColor};
+
+    @media screen and (max-width: 900px) {
+        font-size: 1.15em;
+    }
 `
 
 export const Description = styled.div`
+    display: flex;
     font-size: 1em;
     padding: 4em 2em;
     font-weight: bold;
     line-height: 25px;
     text-align: center;
     background-color: ${props => props.theme.secondaryBackground};
+
+    div {
+        max-width: 40em;
+        align-self: center;
+    }
 
     span {
         color: ${props => props.theme.secondaryColor};

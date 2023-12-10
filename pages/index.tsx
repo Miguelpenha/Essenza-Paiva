@@ -1,7 +1,7 @@
 import useAnimation from '../components/useAnimation'
 import Head from '../components/Head'
 import Header from '../components/Header'
-import { Container, ImageMain, Description, Footer, LogoFooter } from '../styles/pages'
+import { Container, ContainerImageMain, ImageMain, TitleImageMain, SubtitleImageMain, Description, Footer, LogoFooter } from '../styles/pages'
 import ImageMainSource from '../public/img/Image Main.png'
 import page from '../services/page'
 import Form from '../components/Form'
@@ -17,13 +17,18 @@ function Home() {
         <Head/>
         <Header/>
         <Container>
-            <ImageMain priority placeholder="blur" src={ImageMainSource} alt={page.alts.main}/>
+            <ContainerImageMain>
+                <TitleImageMain>Morar à beira-mar é só o começo.</TitleImageMain>
+                <SubtitleImageMain>Exclusividade, conforto e segurança.</SubtitleImageMain>
+                <ImageMain priority placeholder="blur" src={ImageMainSource} alt={page.alts.main}/>
+            </ContainerImageMain>
             <Form/>
-            <Description id='description'>
+            <Description id="description">
                 {page.components.main.description.map((text, index) => (
                     <div key={index}>
                         <span>{page.components.main.description[index]}</span>
                         {index < page.components.main.description.length-1 && <>
+                            <br/>
                             <br/>
                             <br/>
                         </>}

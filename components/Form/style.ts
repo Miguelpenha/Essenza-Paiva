@@ -5,12 +5,9 @@ export const Container = styled.form`
     gap: 2em;
     width: 70%;
     display: flex;
+    max-width: 35em;
     padding-top: 3em;
     align-self: center;
-
-    .active {
-        background-color: red;
-    }
 `
 
 export const Text = styled.div`
@@ -58,6 +55,7 @@ export const Button = styled.button`
     padding: 1em;
     display: flex;
     cursor: pointer;
+    max-width: 20em;
     font-weight: bold;
     font-size: 1.25em;
     margin-bottom: 3em;
