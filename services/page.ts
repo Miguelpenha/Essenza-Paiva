@@ -43,7 +43,7 @@ const page: IPage = {
                     },
                     {
                         normal: 'Cozinhas: ',
-                        bold: 'Cozinha Gourmet integrada à sala e cozinha funciona para o dia a dia'
+                        bold: 'Cozinha Gourmet integrada à sala e cozinha funcional para o dia a dia'
                     },
                     {
                         normal: 'Vagas de garagem: ',
