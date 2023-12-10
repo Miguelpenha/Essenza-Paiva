@@ -24,7 +24,7 @@ interface IPage {
                     highlighted: string
                 }
                 description: string
-                attributes: { normal: string, bold: string }[]
+                attributes: { normal: string, bold?: string }[]
                 price: {
                     normal: string
                     bold: string

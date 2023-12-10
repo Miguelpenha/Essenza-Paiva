@@ -39,12 +39,15 @@ const page: IPage = {
                         bold: '4 suítes (sendo 01 suíte master com closet)'
                     },
                     {
-                        normal: 'Banheiros: ',
-                        bold: '2'
+                        normal: 'Sala para 3 ambientes com pé direito duplo'
                     },
                     {
-                        normal: 'Garagem: ',
-                        bold: '1'
+                        normal: 'Cozinhas: ',
+                        bold: 'Cozinha Gourmet integrada à sala e cozinha funciona para o dia a dia'
+                    },
+                    {
+                        normal: 'Vagas de garagem: ',
+                        bold: '4'
                     }
                 ],
                 price: {

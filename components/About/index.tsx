@@ -12,7 +12,9 @@ function About() {
             <Attributes className='list'>
                 {page.components.main.about.attributes.map((attribute, index) => (
                     <Attribute key={index}>{attribute.normal}
-                        <span className="bold">{attribute.bold}</span>
+                        {attribute.bold && (
+                            <span className="bold">{attribute.bold}</span>
+                        )}
                     </Attribute>
                 ))}
             </Attributes>
