@@ -4,6 +4,11 @@ import { ThemeProvider } from 'styled-components'
 import theme from '../styles/theme'
 import Head from 'next/head'
 import GlobalStyle from '../styles/global'
+import TagManager from 'react-gtm-module'
+
+TagManager.initialize({
+  gtmId: 'GTM-MN5MC8HS'
+})
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (

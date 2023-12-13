@@ -15,6 +15,10 @@ function Home() {
 
     return <>
         <Head/>
+        {/* Google Tag Manager (noscript) */}
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MN5MC8HS"
+        height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe></noscript>
+        {/* End Google Tag Manager (noscript) */}
         <Header/>
         <Container>
             <ContainerImageMain>
