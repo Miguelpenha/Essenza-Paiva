@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Container, Text, Input, InputMask, Button } from './style'
 import page from '../../services/page'
 
