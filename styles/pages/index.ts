@@ -61,25 +61,6 @@ export const SubtitleImageMain = styled.h1`
     }
 `
 
-export const Description = styled.div`
-    display: flex;
-    font-size: 1em;
-    padding: 4em 2em;
-    font-weight: bold;
-    line-height: 25px;
-    text-align: center;
-    background-color: ${props => props.theme.secondaryBackground};
-
-    div {
-        max-width: 40em;
-        align-self: center;
-    }
-
-    span {
-        color: ${props => props.theme.secondaryColor};
-    }
-`
-
 export const Footer = styled.footer`
     display: flex;
     padding: 3em 0em;
