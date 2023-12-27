@@ -17,13 +17,13 @@ function Form() {
                 type="tel"
                 maskChar=""
                 id="telephone"
-                minLength={16}
+                minLength={20}
                 name="telephone"
-                mask="(99) 9 9999-9999"
                 placeholder="Whatsapp..."
+                mask="+55 (99) 9 9999-9999"
                 onChange={ev => setTelephone(ev.target.value)}
             />
-            <Input value={`https://api.whatsapp.com/send?phone=55${telephone.replace(/[-() ]/g, '')}`} type="hidden" name="Whatsapp Link"/>
+            <Input value={`https://api.whatsapp.com/send?phone=${telephone.replace(/[-()+ ]/g, '')}`} type="hidden" name="Whatsapp Link"/>
             <Input type="email" name="email" id="email" required placeholder="Email..."/>
             <Button type="submit">Enviar</Button>
         </Container>
