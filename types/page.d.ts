@@ -11,6 +11,10 @@ interface IPage {
     }
     components: {
         main: {
+            image: {
+                title: string
+                subtitle: string
+            }
             form: {
                 title: {
                     bold: string

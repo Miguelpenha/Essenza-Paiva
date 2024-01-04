@@ -21,8 +21,8 @@ function Home() {
         <Header/>
         <Container>
             <ContainerImageMain>
-                <TitleImageMain>Morar à beira-mar é só o começo.</TitleImageMain>
-                <SubtitleImageMain>Exclusividade, conforto e segurança.</SubtitleImageMain>
+                <TitleImageMain>{page.components.main.image.title}</TitleImageMain>
+                <SubtitleImageMain>{page.components.main.image.subtitle}</SubtitleImageMain>
                 <ImageMain priority placeholder="blur" src={ImageMainSource} alt={page.alts.main}/>
             </ContainerImageMain>
             <Form/>

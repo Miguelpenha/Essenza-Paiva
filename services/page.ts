@@ -13,6 +13,10 @@ const page: IPage = {
     },
     components: {
         main: {
+            image: {
+                title: 'Morar à beira-mar é só o começo.',
+                subtitle: 'Exclusividade, conforto e segurança.'
+            },
             form: {
                 title: {
                     bold: 'Cadastre-se',
