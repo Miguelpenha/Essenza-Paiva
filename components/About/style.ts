@@ -12,7 +12,6 @@ export const Container = styled.div`
 
 export const Title = styled.h2`
     span {
-        font-size: 1em;
         font-weight: bold;
     }
 
